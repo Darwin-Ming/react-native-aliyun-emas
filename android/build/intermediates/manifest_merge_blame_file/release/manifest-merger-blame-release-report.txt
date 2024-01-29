@@ -1,0 +1,82 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.wonday.aliyun.push" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="31" />
+7-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.GET_TASKS" />
+9-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:3:5-68
+9-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:3:22-65
+10
+11    <application android:label="@string/app_name" >
+11-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:4:5-38:19
+11-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:5:13-45
+12        <receiver
+12-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:6:9-18:20
+13            android:name="org.wonday.aliyun.push.AliyunPushMessageReceiver"
+13-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:7:17-80
+14            android:exported="true" >
+14-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:8:17-40
+15            <intent-filter>
+15-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:9:13-11:29
+16                <action android:name="com.alibaba.push2.action.NOTIFICATION_OPENED" />
+16-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:10:17-87
+16-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:10:25-84
+17            </intent-filter>
+18            <intent-filter>
+18-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:12:13-14:29
+19                <action android:name="com.alibaba.push2.action.NOTIFICATION_REMOVED" />
+19-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:13:17-88
+19-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:13:25-85
+20            </intent-filter>
+21            <intent-filter>
+21-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:15:13-17:29
+22                <action android:name="com.alibaba.sdk.android.push.RECEIVE" />
+22-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:16:17-79
+22-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:16:25-76
+23            </intent-filter>
+24        </receiver>
+25
+26        <activity
+26-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:19:9-37:20
+27            android:name="org.wonday.aliyun.push.ThirdPartMessageActivity"
+27-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:20:17-57
+28            android:exported="true"
+28-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:21:17-40
+29            android:launchMode="singleInstance"
+29-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:22:17-52
+30            android:screenOrientation="portrait" >
+30-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:23:17-53
+31
+32            <!-- Vivo scheme 配置开始 -->
+33            <intent-filter>
+33-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:25:13-35:29
+34                <action android:name="android.intent.action.VIEW" />
+34-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:26:17-69
+34-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:26:25-66
+35
+36                <category android:name="android.intent.category.DEFAULT" />
+36-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:28:17-76
+36-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:28:27-73
+37                <category android:name="android.intent.category.BROWSABLE" />
+37-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:29:17-78
+37-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:29:27-75
+38
+39                <data
+39-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:31:17-34:45
+40                    android:host="${applicationId}"
+40-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:32:21-52
+41                    android:path="/thirdpush"
+41-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:33:21-46
+42                    android:scheme="agoo" />
+42-->D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:34:21-42
+43            </intent-filter>
+44            <!-- scheme 配置结束 -->
+45        </activity>
+46    </application>
+47
+48</manifest>

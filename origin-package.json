@@ -1,0 +1,35 @@
+{
+    "name": "react-native-aliyun-emas",
+    "version": "1.1.1",
+    "description": "react-native EMAS SDK",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/evan0204/react-native-aliyun-emas.git"
+    },
+    "keywords": [
+        "react-component",
+        "react-native",
+        "android",
+        "ios",
+        "aliyun",
+        "ali",
+        "push",
+        "aliyun-push",
+        "ali-push",
+        "emas"
+    ],
+    "author": {
+        "name": "evan0204",
+        "url": "https://github.com/evan020"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/evan0204/react-native-aliyun-emas/issues"
+    },
+    "dependencies": {},
+    "peerDependencies": {}
+}

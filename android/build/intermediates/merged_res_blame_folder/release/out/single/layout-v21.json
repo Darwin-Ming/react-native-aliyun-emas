@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\Work\\project\\app\\Eue\\EueApp\\node_modules\\react-native-aliyun-emas\\android\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\chintoumei\\.gradle\\caches\\transforms-3\\d11930c98af9c54320307f7205908b44\\transformed\\core-1.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Work\\project\\app\\Eue\\EueApp\\node_modules\\react-native-aliyun-emas\\android\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\chintoumei\\.gradle\\caches\\transforms-3\\d11930c98af9c54320307f7205908b44\\transformed\\core-1.2.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Work\\project\\app\\Eue\\EueApp\\node_modules\\react-native-aliyun-emas\\android\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\chintoumei\\.gradle\\caches\\transforms-3\\d11930c98af9c54320307f7205908b44\\transformed\\core-1.2.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Work\\project\\app\\Eue\\EueApp\\node_modules\\react-native-aliyun-emas\\android\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\chintoumei\\.gradle\\caches\\transforms-3\\d11930c98af9c54320307f7205908b44\\transformed\\core-1.2.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

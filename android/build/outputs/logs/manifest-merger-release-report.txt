@@ -1,0 +1,89 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:1:1-39:12
+INJECTED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:1:1-39:12
+INJECTED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:1:1-39:12
+	package
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:2:11-43
+		INJECTED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:3:5-68
+	android:name
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:3:22-65
+application
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:4:5-38:19
+	android:label
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:5:13-45
+receiver#org.wonday.aliyun.push.AliyunPushMessageReceiver
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:6:9-18:20
+	android:exported
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:8:17-40
+	android:name
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:7:17-80
+intent-filter#action:name:com.alibaba.push2.action.NOTIFICATION_OPENED
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:9:13-11:29
+action#com.alibaba.push2.action.NOTIFICATION_OPENED
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:10:17-87
+	android:name
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:10:25-84
+intent-filter#action:name:com.alibaba.push2.action.NOTIFICATION_REMOVED
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:12:13-14:29
+action#com.alibaba.push2.action.NOTIFICATION_REMOVED
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:13:17-88
+	android:name
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:13:25-85
+intent-filter#action:name:com.alibaba.sdk.android.push.RECEIVE
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:15:13-17:29
+action#com.alibaba.sdk.android.push.RECEIVE
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:16:17-79
+	android:name
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:16:25-76
+activity#org.wonday.aliyun.push.ThirdPartMessageActivity
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:19:9-37:20
+	android:screenOrientation
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:23:17-53
+	android:launchMode
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:22:17-52
+	android:exported
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:21:17-40
+	android:name
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:20:17-57
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:${applicationId}+data:path:/thirdpush+data:scheme:agoo
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:25:13-35:29
+action#android.intent.action.VIEW
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:28:17-76
+	android:name
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:28:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:29:17-78
+	android:name
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:29:27-75
+data
+ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:31:17-34:45
+	android:path
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:33:21-46
+	android:host
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:32:21-52
+	android:scheme
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml:34:21-42
+uses-sdk
+INJECTED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml
+INJECTED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml
+INJECTED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml
+INJECTED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml
+		ADDED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml
+		INJECTED from D:\Work\project\app\Eue\EueApp\node_modules\react-native-aliyun-emas\android\src\main\AndroidManifest.xml

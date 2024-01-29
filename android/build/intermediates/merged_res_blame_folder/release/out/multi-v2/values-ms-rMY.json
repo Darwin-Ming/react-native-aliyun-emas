@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Work\\project\\app\\Eue\\EueApp\\node_modules\\react-native-aliyun-emas\\android\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ms-rMY\\values-ms-rMY.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\chintoumei\\.gradle\\caches\\transforms-3\\50206aecfc964d1cb4ec7cfbcd06cd1c\\transformed\\jetified-opush-3.0.0\\res\\values-ms-rMY\\values-ms-rMY.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Work\\project\\app\\Eue\\EueApp\\node_modules\\react-native-aliyun-emas\\android\\build\\intermediates\\res\\merged\\release\\values-ms-rMY\\values-ms-rMY.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\chintoumei\\.gradle\\caches\\transforms-3\\50206aecfc964d1cb4ec7cfbcd06cd1c\\transformed\\jetified-opush-3.0.0\\res\\values-ms-rMY\\values-ms-rMY.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "71",
+                        "endOffsets": "122"
+                    }
+                }
+            ]
+        }
+    ]
+}
