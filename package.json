@@ -1,6 +1,7 @@
 {
     "name": "@e-linter/react-native-aliyun-emas",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "hash": "324b169bad2f9b9157a878d95eb0ac7f90c4bf80",
     "description": "react-native EMAS SDK",
     "main": "index.js",
     "scripts": {
