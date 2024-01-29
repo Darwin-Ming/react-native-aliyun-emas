@@ -12,8 +12,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "wwwlin" => "188658587@qq.com" }
   spec.ios.deployment_target = "9.0"
   spec.tvos.deployment_target = "9.0"
-  s.source       = { :git => package['repository']['url'] }
-  # spec.source         = { :git => 'https://github.com/Darwin-Ming/react-native-aliyun-emas.git', :commit => "#{spec.hash}"}
+  spec.source         = { :git => 'https://github.com/Darwin-Ming/react-native-aliyun-emas.git', :commit => "#{spec.hash}"}
   spec.source_files  =  "ios/**/*.{h,m}"
   spec.vendored_frameworks = "ios/libs/AlicloudUtils.framework","ios/libs/CloudPushSDK.framework","ios/libs/UTDID.framework","ios/libs/UTMini.framework"
   spec.libraries = "z", "resolv", "sqlite3"
