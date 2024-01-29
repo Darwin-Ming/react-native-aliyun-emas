@@ -1,6 +1,6 @@
 {
     "name": "@e-linter/react-native-aliyun-emas",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "hash": "324b169bad2f9b9157a878d95eb0ac7f90c4bf80",
     "description": "react-native EMAS SDK",
     "main": "index.js",
@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/evan0204/react-native-aliyun-emas.git"
+        "url": "https://github.com/Darwin-Ming/react-native-aliyun-emas.git"
     },
     "keywords": [
         "react-component",
